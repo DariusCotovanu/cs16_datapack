@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/popped_chorus_fruit"
+  },
+  "overrides": [
+    { "model": "minecraft:item/map_assets/mudstone_village/garage_door/garage_door_bottom_left", "predicate": { "custom_model_data": 110000 } },
+    { "model": "minecraft:item/map_assets/mudstone_village/garage_door/garage_door_bottom_middle", "predicate": { "custom_model_data": 110001 } },
+    { "model": "minecraft:item/map_assets/mudstone_village/garage_door/garage_door_bottom_right", "predicate": { "custom_model_data": 110002 } },
+    { "model": "minecraft:item/map_assets/mudstone_village/garage_door/garage_door_middle_left", "predicate": { "custom_model_data": 110003 } },
+    { "model": "minecraft:item/map_assets/mudstone_village/garage_door/garage_door_middle", "predicate": { "custom_model_data": 110004 } },
+    { "model": "minecraft:item/map_assets/mudstone_village/garage_door/garage_door_middle_right", "predicate": { "custom_model_data": 110005 } },
+    { "model": "minecraft:item/map_assets/mudstone_village/garage_door/garage_door_top_left", "predicate": { "custom_model_data": 110006 } },
+    { "model": "minecraft:item/map_assets/mudstone_village/garage_door/garage_door_top_middle", "predicate": { "custom_model_data": 110007 } },
+    { "model": "minecraft:item/map_assets/mudstone_village/garage_door/garage_door_top_right", "predicate": { "custom_model_data": 110008 } },
+    { "model": "minecraft:item/map_assets/mudstone_village/map_site_outlines/mudstone_village_a_site_outline", "predicate": { "custom_model_data": 110009 } },
+    { "model": "minecraft:item/map_assets/mudstone_village/cargo_boxes/red_cargo", "predicate": { "custom_model_data": 110010 } },
+    { "model": "minecraft:item/map_assets/mudstone_village/cargo_boxes/blue_cargo", "predicate": { "custom_model_data": 110011 } },
+    { "model": "minecraft:item/map_assets/mudstone_village/cargo_boxes/orange_cargo", "predicate": { "custom_model_data": 110012 } },
+    { "model": "minecraft:item/map_assets/mudstone_village/cargo_boxes/green_cargo", "predicate": { "custom_model_data": 110013 } },
+    { "model": "minecraft:item/map_assets/mudstone_village/map_site_outlines/mudstone_village_b_site_outline", "predicate": { "custom_model_data": 110014 } },
+    
+    { "model": "minecraft:item/map_assets/port/black_yellow_stripes", "predicate": { "custom_model_data": 120001 } },
+    { "model": "minecraft:item/map_assets/port/graffiti/graffiti_one", "predicate": { "custom_model_data": 120002 } },
+    { "model": "minecraft:item/map_assets/port/container/blue", "predicate": { "custom_model_data": 120003 } },
+    { "model": "minecraft:item/map_assets/port/container/brown", "predicate": { "custom_model_data": 120004 } },
+    { "model": "minecraft:item/map_assets/port/container/green", "predicate": { "custom_model_data": 120005 } },
+    { "model": "minecraft:item/map_assets/port/map_site_outlines/yard_outsiteline", "predicate": { "custom_model_data": 120006 } },
+    { "model": "minecraft:item/map_assets/port/container/blue_open", "predicate": { "custom_model_data": 120013 } },
+    { "model": "minecraft:item/map_assets/port/container/brown_open", "predicate": { "custom_model_data": 120014 } },
+    { "model": "minecraft:item/map_assets/port/container/green_open", "predicate": { "custom_model_data": 120015 } },
+    { "model": "minecraft:item/map_assets/port/container/blue_openside", "predicate": { "custom_model_data": 120023 } },
+    { "model": "minecraft:item/map_assets/port/container/brown_openside", "predicate": { "custom_model_data": 120024 } },
+    { "model": "minecraft:item/map_assets/port/container/green_openside", "predicate": { "custom_model_data": 120025 } }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/spyglass"
+  },
+  "display": {
+		"thirdperson_righthand": {
+			"rotation": [70, 90, 17],
+			"translation": [0.5, -0.75, 4.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [70, -90, 0],
+			"translation": [0.5, -0.75, 4.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [1.5, 90, 0],
+			"translation": [0, 3, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [1.5, -90, 0],
+			"translation": [0, 3, 0]
+		},
+		"ground": {
+			"rotation": [22, 0, 24],
+			"translation": [-3.75, 3.25, 0],
+      "scale": [1.5, 1.5, 1.5]
+		},
+		"gui": {
+			"rotation": [-10, -150, 20],
+			"translation": [0, 0.5, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"head": {
+			"rotation": [-180, 84, -177.5],
+			"translation": [-0.75, -2.5, -19.75],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"fixed": {
+			"translation": [0, 2.5, -2.25],
+			"scale": [2.25, 2.25, 2.25]
+		}
+	}
+}

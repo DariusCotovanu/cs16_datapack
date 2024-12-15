@@ -1,0 +1,6 @@
+{
+    "providers": [
+        {"type": "bitmap", "file": "cs16:font/usp.png","ascent": 8,"height": 10,"chars": ["\uE000"]},
+        {"type": "bitmap", "file": "cs16:font/ak47.png","ascent": 10,"height": 15,"chars": ["\uE001"]}
+    ]    
+}

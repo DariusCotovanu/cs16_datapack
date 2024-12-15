@@ -1,0 +1,775 @@
+{
+    "ak47": {
+        "sounds": [
+            "cs16:ak47-1",
+            "cs16:ak47-2"
+        ]
+    },
+    "ak47_boltpull": {
+        "sounds": [
+            "cs16:ak47_boltpull"
+        ]
+    },
+    "ak47_clipin": {
+        "sounds": [
+            "cs16:ak47_clipin"
+        ]
+    },
+    "ak47_clipout": {
+        "sounds": [
+            "cs16:ak47_clipout"
+        ]
+    },
+    "aug": {
+        "sounds": [
+            "cs16:aug-1"
+        ]
+    },
+    "aug_boltpull": {
+        "sounds": [
+            "cs16:aug_boltpull"
+        ]
+    },
+    "aug_boltslap": {
+        "sounds": [
+            "cs16:aug_boltslap"
+        ]
+    },
+    "aug_clipin": {
+        "sounds": [
+            "cs16:aug_clipin"
+        ]
+    },
+    "aug_clipout": {
+        "sounds": [
+            "cs16:aug_clipout"
+        ]
+    },
+    "aug_forearm": {
+        "sounds": [
+            "cs16:aug_forearm"
+        ]
+    },
+    "awp1": {
+        "sounds": [
+            "cs16:awp1"
+        ]
+    },
+    "awp_clipin": {
+        "sounds": [
+            "cs16:awp_clipin"
+        ]
+    },
+    "awp_clipout": {
+        "sounds": [
+            "cs16:awp_clipout"
+        ]
+    },
+    "awp_deploy": {
+        "sounds": [
+            "cs16:awp_deploy"
+        ]
+    },
+    "boltdown": {
+        "sounds": [
+            "cs16:boltdown"
+        ]
+    },
+    "boltpull1": {
+        "sounds": [
+            "cs16:boltpull1"
+        ]
+    },
+    "boltup": {
+        "sounds": [
+            "cs16:boltup"
+        ]
+    },
+    "c4_beep1": {
+        "sounds": [
+            "cs16:c4_beep1"
+        ]
+    },
+    "c4_beep2": {
+        "sounds": [
+            "cs16:c4_beep2"
+        ]
+    },
+    "c4_beep3": {
+        "sounds": [
+            "cs16:c4_beep3"
+        ]
+    },
+    "c4_beep4": {
+        "sounds": [
+            "cs16:c4_beep4"
+        ]
+    },
+    "c4_beep5": {
+        "sounds": [
+            "cs16:c4_beep5"
+        ]
+    },
+    "c4_click": {
+        "sounds": [
+            "cs16:c4_click"
+        ]
+    },
+    "c4_disarm": {
+        "sounds": [
+            "cs16:c4_disarm"
+        ]
+    },
+    "c4_disarmed": {
+        "sounds": [
+            "cs16:c4_disarmed"
+        ]
+    },
+    "c4_explode1": {
+        "sounds": [
+            "cs16:c4_explode1"
+        ]
+    },
+    "c4_plant": {
+        "sounds": [
+            "cs16:c4_plant"
+        ]
+    },
+    "clipin1": {
+        "sounds": [
+            "cs16:clipin1"
+        ]
+    },
+    "clipout1": {
+        "sounds": [
+            "cs16:clipout1"
+        ]
+    },
+    "deagle": {
+        "sounds": [
+            "cs16:deagle-1",
+            "cs16:deagle-2"
+        ]
+    },
+    "de_clipin": {
+        "sounds": [
+            "cs16:de_clipin"
+        ]
+    },
+    "de_clipout": {
+        "sounds": [
+            "cs16:de_clipout"
+        ]
+    },
+    "de_deploy": {
+        "sounds": [
+            "cs16:de_deploy"
+        ]
+    },
+    "dryfire_pistol": {
+        "sounds": [
+            "cs16:dryfire_pistol"
+        ]
+    },
+    "dryfire_rifle": {
+        "sounds": [
+            "cs16:dryfire_rifle"
+        ]
+    },
+    "elite_clipout": {
+        "sounds": [
+            "cs16:elite_clipout"
+        ]
+    },
+    "elite_deploy": {
+        "sounds": [
+            "cs16:elite_deploy"
+        ]
+    },
+    "elite_fire": {
+        "sounds": [
+            "cs16:elite_fire"
+        ]
+    },
+    "elite_leftclipin": {
+        "sounds": [
+            "cs16:elite_leftclipin"
+        ]
+    },
+    "elite_reloadstart": {
+        "sounds": [
+            "cs16:elite_reloadstart"
+        ]
+    },
+    "elite_rightclipin": {
+        "sounds": [
+            "cs16:elite_rightclipin"
+        ]
+    },
+    "elite_sliderelease": {
+        "sounds": [
+            "cs16:elite_sliderelease"
+        ]
+    },
+    "elite_twirl": {
+        "sounds": [
+            "cs16:elite_twirl"
+        ]
+    },
+    "famas": {
+        "sounds": [
+            "cs16:famas-1",
+            "cs16:famas-2"
+        ]
+    },
+    "famas-burst": {
+        "sounds": [
+            "cs16:famas-burst"
+        ]
+    },
+    "famas_boltpull": {
+        "sounds": [
+            "cs16:famas_boltpull"
+        ]
+    },
+    "famas_boltslap": {
+        "sounds": [
+            "cs16:famas_boltslap"
+        ]
+    },
+    "famas_clipin": {
+        "sounds": [
+            "cs16:famas_clipin"
+        ]
+    },
+    "famas_clipout": {
+        "sounds": [
+            "cs16:famas_clipout"
+        ]
+    },
+    "famas_forearm": {
+        "sounds": [
+            "cs16:famas_forearm"
+        ]
+    },
+    "fiveseven": {
+        "sounds": [
+            "cs16:fiveseven-1"
+        ]
+    },
+    "fiveseven_clipin": {
+        "sounds": [
+            "cs16:fiveseven_clipin"
+        ]
+    },
+    "fiveseven_clipout": {
+        "sounds": [
+            "cs16:fiveseven_clipout"
+        ]
+    },
+    "fiveseven_slidepull": {
+        "sounds": [
+            "cs16:fiveseven_slidepull"
+        ]
+    },
+    "fiveseven_sliderelease": {
+        "sounds": [
+            "cs16:fiveseven_sliderelease"
+        ]
+    },
+    "flashbang": {
+        "sounds": [
+            "cs16:flashbang-1",
+            "cs16:flashbang-2"
+        ]
+    },
+    "g3sg1": {
+        "sounds": [
+            "cs16:g3sg1-1"
+        ]
+    },
+    "g3sg1_clipin": {
+        "sounds": [
+            "cs16:g3sg1_clipin"
+        ]
+    },
+    "g3sg1_clipout": {
+        "sounds": [
+            "cs16:g3sg1_clipout"
+        ]
+    },
+    "g3sg1_slide": {
+        "sounds": [
+            "cs16:g3sg1_slide"
+        ]
+    },
+    "galil": {
+        "sounds": [
+            "cs16:galil-1",
+            "cs16:galil-2"
+        ]
+    },
+    "galil_boltpull": {
+        "sounds": [
+            "cs16:galil_boltpull"
+        ]
+    },
+    "galil_clipin": {
+        "sounds": [
+            "cs16:galil_clipin"
+        ]
+    },
+    "galil_clipout": {
+        "sounds": [
+            "cs16:galil_clipout"
+        ]
+    },
+    "generic_reload": {
+        "sounds": [
+            "cs16:generic_reload"
+        ]
+    },
+    "generic_shot_reload": {
+        "sounds": [
+            "cs16:generic_shot_reload"
+        ]
+    },
+    "glock18-1": {
+        "sounds": [
+            "cs16:glock18-1"
+        ]
+    },
+    "glock18-2": {
+        "sounds": [
+            "cs16:glock18-2"
+        ]
+    },
+    "grenade_hit1": {
+        "sounds": [
+            "cs16:grenade_hit1"
+        ]
+    },
+    "grenade_hit2": {
+        "sounds": [
+            "cs16:grenade_hit2"
+        ]
+    },
+    "grenade_hit3": {
+        "sounds": [
+            "cs16:grenade_hit3"
+        ]
+    },
+    "headshot2": {
+        "sounds": [
+            "cs16:headshot2"
+        ]
+    },
+    "hegrenade": {
+        "sounds": [
+            "cs16:hegrenade-1",
+            "cs16:hegrenade-2"
+        ]
+    },
+    "he_bounce": {
+        "sounds": [
+            "cs16:he_bounce-1"
+        ]
+    },
+    "knife_deploy1": {
+        "sounds": [
+            "cs16:knife_deploy1"
+        ]
+    },
+    "knife_hit1": {
+        "sounds": [
+            "cs16:knife_hit1"
+        ]
+    },
+    "knife_hit2": {
+        "sounds": [
+            "cs16:knife_hit2"
+        ]
+    },
+    "knife_hit3": {
+        "sounds": [
+            "cs16:knife_hit3"
+        ]
+    },
+    "knife_hit4": {
+        "sounds": [
+            "cs16:knife_hit4"
+        ]
+    },
+    "knife_hitwall1": {
+        "sounds": [
+            "cs16:knife_hitwall1"
+        ]
+    },
+    "knife_slash1": {
+        "sounds": [
+            "cs16:knife_slash1"
+        ]
+    },
+    "knife_slash2": {
+        "sounds": [
+            "cs16:knife_slash2"
+        ]
+    },
+    "knife_stab": {
+        "sounds": [
+            "cs16:knife_stab"
+        ]
+    },
+    "m249": {
+        "sounds": [
+            "cs16:m249-1",
+            "cs16:m249-2"
+        ]
+    },
+    "m249_boxin": {
+        "sounds": [
+            "cs16:m249_boxin"
+        ]
+    },
+    "m249_boxout": {
+        "sounds": [
+            "cs16:m249_boxout"
+        ]
+    },
+    "m249_chain": {
+        "sounds": [
+            "cs16:m249_chain"
+        ]
+    },
+    "m249_coverdown": {
+        "sounds": [
+            "cs16:m249_coverdown"
+        ]
+    },
+    "m249_coverup": {
+        "sounds": [
+            "cs16:m249_coverup"
+        ]
+    },
+    "m3": {
+        "sounds": [
+            "cs16:m3-1"
+        ]
+    },
+    "m3_insertshell": {
+        "sounds": [
+            "cs16:m3_insertshell"
+        ]
+    },
+    "m3_pump": {
+        "sounds": [
+            "cs16:m3_pump"
+        ]
+    },
+    "m4a1": {
+        "sounds": [
+            "cs16:m4a1-1"
+        ]
+    },
+    "m4a1_boltpull": {
+        "sounds": [
+            "cs16:m4a1_boltpull"
+        ]
+    },
+    "m4a1_clipin": {
+        "sounds": [
+            "cs16:m4a1_clipin"
+        ]
+    },
+    "m4a1_clipout": {
+        "sounds": [
+            "cs16:m4a1_clipout"
+        ]
+    },
+    "m4a1_deploy": {
+        "sounds": [
+            "cs16:m4a1_deploy"
+        ]
+    },
+    "m4a1_silencer_off": {
+        "sounds": [
+            "cs16:m4a1_silencer_off"
+        ]
+    },
+    "m4a1_silencer_on": {
+        "sounds": [
+            "cs16:m4a1_silencer_on"
+        ]
+    },
+    "m4a1_unsil": {
+        "sounds": [
+            "cs16:m4a1_unsil-1",
+            "cs16:m4a1_unsil-2"
+        ]
+    },
+    "mac10": {
+        "sounds": [
+            "cs16:mac10-1"
+        ]
+    },
+    "mac10_boltpull": {
+        "sounds": [
+            "cs16:mac10_boltpull"
+        ]
+    },
+    "mac10_clipin": {
+        "sounds": [
+            "cs16:mac10_clipin"
+        ]
+    },
+    "mac10_clipout": {
+        "sounds": [
+            "cs16:mac10_clipout"
+        ]
+    },
+    "mp5": {
+        "sounds": [
+            "cs16:mp5-1",
+            "cs16:mp5-2"
+        ]
+    },
+    "mp5_clipin": {
+        "sounds": [
+            "cs16:mp5_clipin"
+        ]
+    },
+    "mp5_clipout": {
+        "sounds": [
+            "cs16:mp5_clipout"
+        ]
+    },
+    "mp5_slideback": {
+        "sounds": [
+            "cs16:mp5_slideback"
+        ]
+    },
+    "p228": {
+        "sounds": [
+            "cs16:p228-1"
+        ]
+    },
+    "p228_clipin": {
+        "sounds": [
+            "cs16:p228_clipin"
+        ]
+    },
+    "p228_clipout": {
+        "sounds": [
+            "cs16:p228_clipout"
+        ]
+    },
+    "p228_slidepull": {
+        "sounds": [
+            "cs16:p228_slidepull"
+        ]
+    },
+    "p228_sliderelease": {
+        "sounds": [
+            "cs16:p228_sliderelease"
+        ]
+    },
+    "p90": {
+        "sounds": [
+            "cs16:p90-1"
+        ]
+    },
+    "p90_boltpull": {
+        "sounds": [
+            "cs16:p90_boltpull"
+        ]
+    },
+    "p90_clipin": {
+        "sounds": [
+            "cs16:p90_clipin"
+        ]
+    },
+    "p90_clipout": {
+        "sounds": [
+            "cs16:p90_clipout"
+        ]
+    },
+    "p90_cliprelease": {
+        "sounds": [
+            "cs16:p90_cliprelease"
+        ]
+    },
+    "pinpull": {
+        "sounds": [
+            "cs16:pinpull"
+        ]
+    },
+    "ric_conc": {
+        "sounds": [
+            "cs16:ric_conc-1",
+            "cs16:ric_conc-2"
+        ]
+    },
+    "ric_metal": {
+        "sounds": [
+            "cs16:ric_metal-1",
+            "cs16:ric_metal-2"
+        ]
+    },
+    "scout_bolt": {
+        "sounds": [
+            "cs16:scout_bolt"
+        ]
+    },
+    "scout_clipin": {
+        "sounds": [
+            "cs16:scout_clipin"
+        ]
+    },
+    "scout_clipout": {
+        "sounds": [
+            "cs16:scout_clipout"
+        ]
+    },
+    "scout_fire": {
+        "sounds": [
+            "cs16:scout_fire-1"
+        ]
+    },
+    "sg550": {
+        "sounds": [
+            "cs16:sg550-1"
+        ]
+    },
+    "sg550_boltpull": {
+        "sounds": [
+            "cs16:sg550_boltpull"
+        ]
+    },
+    "sg550_clipin": {
+        "sounds": [
+            "cs16:sg550_clipin"
+        ]
+    },
+    "sg550_clipout": {
+        "sounds": [
+            "cs16:sg550_clipout"
+        ]
+    },
+    "sg552": {
+        "sounds": [
+            "cs16:sg552-1",
+            "cs16:sg552-2"
+        ]
+    },
+    "sg552_boltpull": {
+        "sounds": [
+            "cs16:sg552_boltpull"
+        ]
+    },
+    "sg552_clipin": {
+        "sounds": [
+            "cs16:sg552_clipin"
+        ]
+    },
+    "sg552_clipout": {
+        "sounds": [
+            "cs16:sg552_clipout"
+        ]
+    },
+    "sg_explode": {
+        "sounds": [
+            "cs16:sg_explode"
+        ]
+    },
+    "slideback1": {
+        "sounds": [
+            "cs16:slideback1"
+        ]
+    },
+    "sliderelease1": {
+        "sounds": [
+            "cs16:sliderelease1"
+        ]
+    },
+    "tmp": {
+        "sounds": [
+            "cs16:tmp-1",
+            "cs16:tmp-2"
+        ]
+    },
+    "ump45": {
+        "sounds": [
+            "cs16:ump45-1"
+        ]
+    },
+    "ump45_boltslap": {
+        "sounds": [
+            "cs16:ump45_boltslap"
+        ]
+    },
+    "ump45_clipin": {
+        "sounds": [
+            "cs16:ump45_clipin"
+        ]
+    },
+    "ump45_clipout": {
+        "sounds": [
+            "cs16:ump45_clipout"
+        ]
+    },
+    "usp1": {
+        "sounds": [
+            "cs16:usp1"
+        ]
+    },
+    "usp2": {
+        "sounds": [
+            "cs16:usp2"
+        ]
+    },
+    "usp_clipin": {
+        "sounds": [
+            "cs16:usp_clipin"
+        ]
+    },
+    "usp_clipout": {
+        "sounds": [
+            "cs16:usp_clipout"
+        ]
+    },
+    "usp_silencer_off": {
+        "sounds": [
+            "cs16:usp_silencer_off"
+        ]
+    },
+    "usp_silencer_on": {
+        "sounds": [
+            "cs16:usp_silencer_on"
+        ]
+    },
+    "usp_slideback": {
+        "sounds": [
+            "cs16:usp_slideback"
+        ]
+    },
+    "usp_sliderelease": {
+        "sounds": [
+            "cs16:usp_sliderelease"
+        ]
+    },
+    "usp_unsil": {
+        "sounds": [
+            "cs16:usp_unsil-1"
+        ]
+    },
+    "xm1014": {
+        "sounds": [
+            "cs16:xm1014-1"
+        ]
+    },
+    "zoom": {
+        "sounds": [
+            "cs16:zoom"
+        ]
+    }
+}
