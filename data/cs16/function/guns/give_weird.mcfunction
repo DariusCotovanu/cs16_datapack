@@ -1,0 +1,17 @@
+#data modify storage cs16:temp item.tag set value {CustomModelData:15,display:{Name:'{"text":"Healing GUN!","color":"aqua","italic":false}',Lore:['[{"text":"++++++++","italic":false,"bold":true,"color":"gold"}]']},gun:{uid:-1,isGun:1b,name:"Hihi",recoilXZ:0,recoilY:0,id:94,fire_rate:6,reloadTime:60,range_modifier:0.3f,bullets:5,total_bullets:250,magazine_capacity:[5,250],damage:[{head:-45,chest:-25,legs:-25},{head:-25,chest:-15,legs:-15}]},AttributeModifiers:[{AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Amount:0.5,Operation:1,UUID:[I;-184230400,-1466415833,-1219298785,1419402716],Slot:"mainhand"}]} 
+#loot give @s loot cs16:pickup
+
+# data modify storage cs16:temp item.tag set value {CustomModelData:15,display:{Name:'{"text":"One Shot!","color":"aqua","italic":false}',Lore:['[{"text":"<>2147DMG MAX<>","italic":false,"bold":true,"color":"gold"}]']},gun:{uid:-2322,isGun:1b,name:"EZ KILL",recoilXZ:0,recoilY:0,id:3,fire_rate:0,range_modifier:0.97f,bullets:999,total_bullets:9999,magazine_capacity:[9999,99999],damage:[{head:9999,chest:9999,legs:9999},{head:9999,chest:9999,legs:9999}]},AttributeModifiers:[{AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Amount:1,Operation:1,UUID:[I;-184230400,-1466415833,-1219298785,1419402716],Slot:"mainhand"}]} 
+# loot give @s loot cs16:pickup
+
+data modify storage cs16:temp item.tag set value {CustomModelData:15,display:{Name:'{"text":"Splashes Fire all over","color":"aqua","italic":false}',Lore:['[{"text":"[Boring Company LoL]","italic":false,"bold":true,"color":"gold"}]']},gun:{uid:-1,isGun:1b,name:"Fire Gun",recoilXZ:0,recoilY:0,id:-3211,reloadTime:100,fire_rate:1,range:80,range_modifier:0.97f,bullets:200,total_bullets:1000,magazine_capacity:[200,1000],AttributeModifiers:[{AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Amount:-0.2,Operation:1,UUID:[I;-184230400,-1466415833,-1219298785,1419402716],Slot:"mainhand"}]}}
+loot give @s loot cs16:pickup
+
+data modify storage cs16:temp item.tag set value {CustomModelData:15,display:{Name:'{"text":"Grenade GUN","color":"aqua","italic":false}',Lore:['[{"text":"LALALA BomBER MAN","italic":false,"bold":true,"color":"gold"}]']},gun:{uid:-1,isGun:1b,name:"Nada",recoilXZ:20,recoilY:20,id:-3213,fire_rate:-1,reloadTime:100,range_modifier:0.97f,bullets:4,total_bullets:20,magazine_capacity:[4,20],use_delay:70,AttributeModifiers:[{AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Amount:-0.4,Operation:1,UUID:[I;-184230400,-1466415833,-1219298785,1419402716],Slot:"mainhand"}]}}
+loot give @s loot cs16:pickup
+
+data modify storage cs16:temp item.tag set value {CustomModelData:15,display:{Name:'{"text":"Missile Launcher","color":"aqua","italic":false}',Lore:['[{"text":"AUTO AIM?","italic":false,"bold":true,"color":"gold"}]']},gun:{uid:-1,isGun:1b,name:"Nada",recoilXZ:20,recoilY:20,id:-3214,fire_rate:-1,reloadTime:30,range_modifier:0.97f,bullets:1,total_bullets:99,magazine_capacity:[1,99],use_delay:90,AttributeModifiers:[{AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Amount:-0.7,Operation:1,UUID:[I;-184230400,-1466415833,-1219298785,1419402716],Slot:"mainhand"}]}}
+loot give @s loot cs16:pickup
+
+# item replace entity @s armor.chest with elytra
+# item replace entity @s hotbar.0 with firework_rocket 32

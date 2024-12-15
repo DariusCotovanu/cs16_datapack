@@ -1,0 +1,21 @@
+{
+	"values": [
+        "#minecraft:stairs",
+        "#minecraft:fence_gates",
+        "#minecraft:fences",
+        "#minecraft:flower_pots",
+        "#all_hanging_signs",
+        "#wall_signs",
+        "#minecraft:wall_corals",
+        "#minecraft:wall_hanging_signs",
+        "#minecraft:signs",
+        "#slabs",
+        "#doors",
+        "#buttons",
+        "#minecraft:banners",
+        "#crops",
+        "redstone_torch",
+        "torch",
+        "sugar_cane"
+	]
+}

@@ -1,0 +1,1 @@
+$summon item ~ ~ ~ {Item:{id:"spyglass",components:$(components)}}

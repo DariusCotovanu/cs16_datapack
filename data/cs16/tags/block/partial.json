@@ -1,0 +1,10 @@
+{
+    "values":[
+        "#minecraft:stairs",
+        "#minecraft:slabs",
+        "#minecraft:doors",
+        "#minecraft:campfires",
+        "#minecraft:walls",
+        "#minecraft:trapdoors"
+    ]
+}

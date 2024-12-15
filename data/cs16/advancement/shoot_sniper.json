@@ -1,0 +1,48 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"player": [
+					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "minecraft:score",
+							"target": "this",
+							"score": "cs16.player.reloading",
+							"scale": 0
+						},
+						"range": 0
+					},
+					{
+						"condition": "minecraft:value_check",
+						"value": {
+							"type": "minecraft:score",
+							"target": "this",
+							"score": "cs16.player.gun_use_delay",
+							"scale": 0
+						},
+						"range": 0
+					},
+					{
+						"condition": "minecraft:entity_properties",
+						"entity": "this",
+						"predicate": {
+							"equipment": {
+								"offhand": {
+									"items": [
+										"minecraft:spyglass"
+									],
+									"nbt": "{gun:{isGun:1b}}"
+								}
+							}
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"#function": "cs16:player/sniper_shot"
+	}
+}

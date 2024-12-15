@@ -1,0 +1,1 @@
+$item modify entity @s weapon.mainhand {"function":"minecraft:set_custom_model_data","source":"block_entity","include":["minecraft:custom_model_data"],"value":$(model)}

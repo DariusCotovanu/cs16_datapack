@@ -1,0 +1,13 @@
+[
+	{
+		"function": "minecraft:copy_custom_data",
+		"source": "this",
+		"ops": [
+			{
+				"source": "SelectedItem.components.minecraft:custom_data.gun.magazine_capacity[0]",
+				"target": "gun.bullets",
+				"op": "replace"
+			}
+		]
+	}
+]

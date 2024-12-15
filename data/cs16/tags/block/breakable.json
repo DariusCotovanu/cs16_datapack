@@ -1,0 +1,21 @@
+{
+	"values": [
+		"minecraft:glass",
+		"minecraft:black_stained_glass",
+		"minecraft:glass_pane",
+		"minecraft:brown_stained_glass_pane",
+        "minecraft:flower_pot",
+		"bamboo",
+        "#minecraft:climbable",
+        "minecraft:decorated_pot",
+		"#fences",
+		"#fence_gates",
+		"#leaves",
+		"cracked_deepslate_bricks",
+		"cracked_deepslate_tiles",
+		"cracked_nether_bricks",
+		"cracked_polished_blackstone_bricks",
+		"cracked_stone_bricks",
+		"infested_cracked_stone_bricks"
+	]
+}

@@ -1,0 +1,1 @@
+$particle minecraft:block{block_state:"$(name)"} ^ ^ ^-.3 0 0 0 0.0 3

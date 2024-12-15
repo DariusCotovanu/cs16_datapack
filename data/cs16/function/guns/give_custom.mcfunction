@@ -1,0 +1,2 @@
+data modify storage cs16:temp item.tag set value {gun:{uid:-2721,isGun:1b,name:"TEST",recoilXZ:0,recoilY:0,id:30,fire_rate:0,range_modifier:0.99f,bullets:1,total_bullets:9999,magazine_capacity:[10,9999],damage:[{head:1,chest:1,legs:1},{head:1,chest:1,legs:1}]},AttributeModifiers:[{AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Amount:0.5,Operation:2,UUID:[I;-184230400,-1466415833,-1219298785,1419402716],Slot:"mainhand"}]} 
+loot give @s loot cs16:pickup_awp

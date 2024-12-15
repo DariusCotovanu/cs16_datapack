@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:snowball",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{display:{Name:'\"Grenade\"'},gun:{isGun:1b,id:99,uid:-5231,bullets:1,total_bullets:0}}"
+                        }
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,68 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:heart_of_the_sea",
+					"functions": [
+						{
+							"function": "minecraft:toggle_tooltips",
+							"toggles": {
+								"minecraft:attribute_modifiers": true
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"max_stack_size":1,
+								"item_name":"{\"text\":\"Missle Launcher\",\"color\":\"aqua\",\"italic\":false}",
+								"lore":["[{\"text\":\"Look at a Target to lock on it, then Right Click\",\"italic\":false,\"bold\":true,\"color\":\"gold\"}]"],
+								"custom_model_data": 10110,
+								"minecraft:food": {
+									"eat_seconds": 9999999,
+									"nutrition": 1,
+									"saturation": 1,
+									"can_always_eat": true
+									
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+								"gun": {
+									"model": 10110,
+									"use_delay":100,
+									"reloadTime": 100,
+									"primary": true,
+									"uid": -1,
+									"isGun": true,
+									"name": "Missle Launcher",
+									"recoilXZ": 0,
+									"recoilY": 0,
+									"id": -3214,
+									"fire_rate": -1,
+									"block_pen": 0,
+									"range_modifier": 1.0,
+									"bullets": 1,
+									"total_bullets": 5,
+									"magazine_capacity": {
+										"bullets":1,
+										"total_bullets":5
+									},
+									"damage": {
+										"head": 0,
+										"chest": 0,
+										"legs": 0
+									}
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,79 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:heart_of_the_sea",
+					"functions": [
+						{
+							"function": "minecraft:toggle_tooltips",
+							"toggles": {
+								"minecraft:attribute_modifiers": true
+							}
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"id": "cs16:no_bob",
+									"attribute": "minecraft:generic.attack_speed",
+									"amount": -999999,
+									"operation": "add_value",
+									"slot": "mainhand"
+								}
+							],
+							"replace": true
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"max_stack_size":1,
+								"item_name":"{\"text\":\"Famas\",\"color\":\"aqua\",\"italic\":false}",
+								"custom_model_data": 10260,
+								"minecraft:food": {
+									"eat_seconds": 9999999,
+									"nutrition": 1,
+									"saturation": 1,
+									"can_always_eat": true
+									
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+								"gun": {
+									"model": 10260,
+									"reloadTime": 54,
+									"primary": true,
+									"uid": -1,
+									"isGun": true,
+									"name": "Famas",
+									"recoilXZ": 3,
+									"recoilY": 4,
+									"id": 26,
+									"fire_rate": 2,
+									"block_pen": 4,
+									"range_modifier": 0.70,
+									"bullets": 25,
+									"total_bullets": 90,
+									"magazine_capacity": {
+										"bullets":25,
+										"total_bullets":90
+									},
+									"damage": {
+										"head": 100,
+										"chest": 32,
+										"legs": 26
+									}
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

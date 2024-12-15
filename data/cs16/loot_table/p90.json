@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:ender_eye",
+					"functions": [
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:10260,display:{Name:'{\"text\":\"[data/cs16/loot_tables/mp5.json]\",\"color\":\"aqua\",\"italic\":false}',Lore:['[{\"text\":\"[PRESS F TO RELOAD]\",\"italic\":false,\"bold\":true,\"color\":\"gold\"}]']},gun:{model:10260,reloadTime:52,primary:1b,uid:-1,isGun:1b,name:\"[P90]\",recoilXZ:1,recoilY:3,id:25,fire_rate:2,block_pen:6,range_modifier:0.56f,bullets:50,total_bullets:100,magazine_capacity:[50,100],damage:[{head:80,chest:20,legs:15},{head:60,chest:15,legs:12}]},AttributeModifiers:[{Amount: -1000000, Slot: \"mainhand\", Operation: 0, UUID: [I; 172525569, 32523819, -1915147222, -1521153014], AttributeName: \"generic.attack_speed\", Name: \"generic.attack_speed\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.05,Operation:1,UUID:[I;-184230400,-1466415833,-1219298785,1419402716],Slot:\"mainhand\"}]}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

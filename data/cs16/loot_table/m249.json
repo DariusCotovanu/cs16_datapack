@@ -1,0 +1,80 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:heart_of_the_sea",
+					"functions": [
+						{
+							"function": "minecraft:toggle_tooltips",
+							"toggles": {
+								"minecraft:attribute_modifiers": true
+							}
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"id": "cs16:no_bob",
+									"attribute": "minecraft:generic.attack_speed",
+									"amount": -999999,
+									"operation": "add_value",
+									"slot": "mainhand"
+								}
+							],
+							"replace": true
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"max_stack_size":1,
+								"item_name":"{\"text\":\"M249 Machine Gun\",\"color\":\"aqua\",\"italic\":false}",
+								"lore":["[{\"text\":\"[PRESS F TO RELOAD]\",\"italic\":false,\"bold\":true,\"color\":\"gold\"}]"],
+								"custom_model_data": 10240,
+								"minecraft:food": {
+									"eat_seconds": 9999999,
+									"nutrition": 1,
+									"saturation": 1,
+									"can_always_eat": true
+									
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+								"gun": {
+									"model": 10240,
+									"reloadTime": 94,
+									"primary": true,
+									"uid": -1,
+									"isGun": true,
+									"name": "Machine Gun",
+									"recoilXZ": 5,
+									"recoilY": 6,
+									"id": 24,
+									"fire_rate": 3,
+									"block_pen": 12,
+									"range_modifier": 0.76,
+									"bullets": 100,
+									"total_bullets": 300,
+									"magazine_capacity": {
+										"bullets":100,
+										"total_bullets":300
+									},
+									"damage": {
+										"head": 127,
+										"chest": 54,
+										"legs": 37
+									}
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,82 @@
+
+
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:heart_of_the_sea",
+					"functions": [
+						{
+							"function": "minecraft:toggle_tooltips",
+							"toggles": {
+								"minecraft:attribute_modifiers": true
+							}
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"id": "cs16:no_bob",
+									"attribute": "minecraft:generic.attack_speed",
+									"amount": -999999,
+									"operation": "add_value",
+									"slot": "mainhand"
+								}
+							],
+							"replace": true
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"max_stack_size":1,
+								"item_name":"{\"text\":\"Usp\",\"color\":\"aqua\",\"italic\":false}",
+								"lore":["[{\"text\":\"[PRESS F TO RELOAD]\",\"italic\":false,\"bold\":true,\"color\":\"gold\"}]"],
+								"custom_model_data": 10010,
+								"minecraft:food": {
+									"eat_seconds": 9999999,
+									"nutrition": 1,
+									"saturation": 1,
+									"can_always_eat": true
+									
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+								"gun": {
+									"model": 10010,
+									"reloadTime": 44,
+									"secondary": true,
+									"uid": -1,
+									"isGun": true,
+									"name": "Usp",
+									"recoilXZ": 3,
+									"recoilY": 7,
+									"id": 1,
+									"fire_rate": -1,
+									"block_pen": 1,
+									"range_modifier": 0.5,
+									"bullets": 12,
+									"total_bullets": 96,
+									"magazine_capacity": {
+										"bullets":12,
+										"total_bullets":96
+									},
+									"damage": {
+										"head": 105,
+										"chest": 21,
+										"legs": 13
+									}
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
