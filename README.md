@@ -21,6 +21,7 @@ Damage scaling on guns removed( idk why that was a thing)
 Loot Tables:
 guns are separated by type and you can get one by typing:
 loot give @s cs16:gun/<gun_type>/<gun_name>
+
 Getting ammo:
 loot give @s loot cs16:ammo/<gun_type>
 
@@ -34,3 +35,8 @@ $gunRange 0..1024
 $gunGrief 0 or 1 (1-guns can destroy blocks)
 $wallbang 0 or 1( 1-thru wall damage)
 $transform_item_to_display 0 or 1( converts gun items to item displays and can be only be picked up by pressing shift near it)
+
+
+There is a small wave minigame builtin the datapack
+To start it type function pve:start
+To stop it type function pve:stop
