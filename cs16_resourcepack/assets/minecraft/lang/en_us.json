@@ -1,0 +1,4 @@
+{
+    "death.attack.gun": "%1$s died from gun",
+    "death.attack.gun.player": "%1$s was gunned down by %2$s"
+}

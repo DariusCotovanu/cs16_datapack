@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"requirement": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"rewards": {
+		"function": "cs16:player/right_clicking"
+	}
+}

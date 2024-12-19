@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/music_disc_cat"
+  },
+  "overrides": [
+
+    { "model": "cs16:health_pack", "predicate": { "custom_model_data": 1 } },
+    { "model": "cs16:health_pack_red", "predicate": { "custom_model_data": 2 } },
+    { "model": "cs16:ammo_pistol", "predicate": { "custom_model_data": 30 } },
+    { "model": "cs16:ammo_smg", "predicate": { "custom_model_data": 31 } },
+    { "model": "cs16:ammo_rifle", "predicate": { "custom_model_data": 32 } }
+
+  ]
+}

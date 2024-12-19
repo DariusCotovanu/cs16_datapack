@@ -1,0 +1,1 @@
+$summon item ~ ~ ~ {Item:{id:"music_disc_5",components:$(components)}}

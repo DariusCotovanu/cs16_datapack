@@ -1,0 +1,21 @@
+{
+	"anvil_cost": 1,
+	"description": {
+	  "text":"Crit Chance",
+	  "color":"gold"
+	},
+	"effects": {
+	},
+	"max_cost": {
+	  "base": 65,
+	  "per_level_above_first": 15
+	},
+	"max_level": 3,
+	"min_cost": {
+	  "base": 15,
+	  "per_level_above_first": 7
+	},
+	"slots": [],
+	"supported_items": "minecraft:music_disc_5",
+	"weight": 2
+  }

@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+			"rolls": 2,
+			"entries": [
+                {
+					"type": "minecraft:loot_table",
+					"value": "cs16:smgs",
+					"weight": 1
+				},
+                {
+					"type": "minecraft:loot_table",
+					"value": "cs16:rifles",
+					"weight": 1
+				}
+			]
+		},
+		{
+			"rolls": 2,
+			"entries": [
+                {
+					"type": "minecraft:loot_table",
+					"value": "cs16:health_pack"
+				}
+			]
+		}
+
+    ]
+}
+  

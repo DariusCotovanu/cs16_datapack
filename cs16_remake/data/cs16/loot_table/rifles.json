@@ -1,0 +1,30 @@
+{
+	"type": "minecraft:empty",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "cs16:gun/rifle/ak47",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "cs16:gun/rifle/m4a1",
+					"weight": 4
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "cs16:gun/rifle/m249",
+					"weight": 2
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "cs16:gun/rifle/awp",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

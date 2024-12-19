@@ -1,1 +1,0 @@
-$setblock ~ ~ ~ $(name) replace

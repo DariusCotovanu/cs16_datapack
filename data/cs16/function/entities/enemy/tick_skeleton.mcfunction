@@ -1,1 +1,0 @@
-execute at @s run function cs16:entities/enemy/shoot_start

@@ -1,8 +1,0 @@
-{
-	"values": [
-		"td:load",
-		"distance:setup",
-		"cs16:load",
-		"snbt:load"
-	]
-}

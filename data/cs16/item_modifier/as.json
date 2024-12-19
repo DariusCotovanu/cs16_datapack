@@ -1,6 +1,0 @@
-[
-	{
-		"function": "minecraft:set_nbt",
-		"tag": "{AttributeModifiers:[{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1000000,Operation:0,UUID:[I;172525569,32523819,-1915147222,-1521153014],Slot:\"mainhand\"}]}"
-	}
-]

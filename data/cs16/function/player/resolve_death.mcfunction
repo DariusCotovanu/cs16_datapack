@@ -1,5 +1,0 @@
-
-execute if score bodyPart cs16.temp matches 2 run tellraw @a[] [{"text":"","color":"#DB270B","bold":true},{"selector":"@a[tag=this,limit=1]","bold":false},{"text":" "},{"nbt":"SelectedItem.components.minecraft:custom_data.gun.name","interpret": true,"entity":"@a[tag=this,limit=1]","color":"yellow","bold":false},{"text":"💀 ","color":"yellow"},{"selector":"@s","bold":false}]
-execute if score bodyPart cs16.temp matches 0..1 run tellraw @a[] [{"text":"","color":"#DB270B","bold":true},{"selector":"@a[tag=this,limit=1]","bold":false},{"text":" "},{"nbt":"SelectedItem.components.minecraft:custom_data.gun.name","interpret": true,"entity":"@a[tag=this,limit=1]","color":"yellow","bold":false},{"text":" "},{"selector":"@s","bold":false}]
-
-execute as @a[tag=this,limit=1] run function cs16:player/reload/exe

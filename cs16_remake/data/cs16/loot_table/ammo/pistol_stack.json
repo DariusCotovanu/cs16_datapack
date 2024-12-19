@@ -1,0 +1,45 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_cat",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:constant",
+								"value": 64
+							}
+						},
+						{
+						"count": {
+							"type": "minecraft:uniform",
+							"max": 1.0,
+							"min": 0.0
+						},
+						"enchantment": "minecraft:looting",
+						"function": "minecraft:enchanted_count_increase"
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"!jukebox_playable": {},
+								"max_stack_size": 64,
+								"item_name": "{\"text\":\"Pistol AMMO\",\"color\":\"aqua\",\"italic\":false}",
+								"item_model":"cs16:ammo/pistol",
+								"custom_data": {
+									"pistol": true,
+									"ammo": true
+								}
+							}
+						}
+					]
+				}
+			],
+			"functions": []
+		}
+	]
+}

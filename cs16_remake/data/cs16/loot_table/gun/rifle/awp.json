@@ -1,0 +1,63 @@
+
+
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:spyglass",
+					"functions": [
+						{
+							"function": "minecraft:toggle_tooltips",
+							"toggles": {
+								"minecraft:attribute_modifiers": true
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"!jukebox_playable":{},
+								"item_name":"{\"text\":\"Sniper [F to shoot]\",\"color\":\"aqua\",\"italic\":false}",
+								"lore":["[{\"text\":\"[PRESS F TO SHOOT]\",\"italic\":false,\"bold\":true,\"color\":\"gold\"}]"],
+								"item_model":"cs16:gun/awp",
+								"enchantable": {"value": 1}
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+								"gun": {
+									"rifle":true,
+									"reloadTime": 50,
+									"primary": true,
+									"uid": -1,
+									"isGun": true,
+									"name": "Shnaiper",
+									"recoilXZ": 6,
+									"recoilY": 5,
+									"id": 30,
+									"fire_rate": 0,
+									"block_pen": 16,
+									"range_modifier": 0.8,
+									"bullets": 10,
+									"total_bullets": 60,
+									"magazine_capacity": {
+										"bullets":10,
+										"total_bullets":60
+									},
+									"damage": {
+										"head": 90,
+										"chest": 28,
+										"legs": 16
+									}
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

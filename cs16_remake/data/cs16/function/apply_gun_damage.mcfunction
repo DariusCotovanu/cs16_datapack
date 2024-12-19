@@ -1,0 +1,1 @@
+$damage @s $(value) minecraft:player_attack by @a[tag=this,limit=1]

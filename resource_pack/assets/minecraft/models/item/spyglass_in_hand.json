@@ -1,9 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/spyglass"
-  },
-  "overrides": [
-    { "model": "cs16:guns/sniper", "predicate": { "custom_model_data": 15 } }
-  ]  
-}

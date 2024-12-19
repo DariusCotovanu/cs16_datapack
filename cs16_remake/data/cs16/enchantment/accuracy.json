@@ -1,0 +1,21 @@
+{
+	"description": {
+		"text": "Accuracy",
+		"color": "dark_red"
+	},
+	"effects": {},
+	"supported_items": "minecraft:music_disc_5",
+	"max_cost": {
+		"base": 62,
+		"per_level_above_first": 15
+	  },
+	  "max_level": 3,
+	  "min_cost": {
+		"base": 20,
+		"per_level_above_first": 10
+	  },
+	  "anvil_cost": 1,
+	  "slots": [],
+	  "weight": 1
+
+}

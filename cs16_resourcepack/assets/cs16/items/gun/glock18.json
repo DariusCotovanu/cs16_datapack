@@ -1,0 +1,37 @@
+{
+	"model": {
+		"type": "minecraft:condition",
+		"property": "minecraft:has_component",
+		"component": "minecraft:dyed_color",
+		"ignore_default": false,
+		"on_true": {
+			"type": "minecraft:model",
+			"model": "cs16:gun/glock18"
+		},
+		"on_false": {
+				"type": "minecraft:range_dispatch",
+				"property": "minecraft:use_duration",
+				"scale": 1,
+				"entries": [
+					{
+						"threshold": 1,
+						"model": {
+							"type": "minecraft:model",
+							"model": "cs16:gun/glock18_fired"
+						}
+					},
+                    {
+						"threshold": 3,
+						"model": {
+							"type": "minecraft:model",
+							"model": "cs16:gun/glock18"
+						}
+					}
+				],
+				"fallback": {
+					"type": "minecraft:model",
+					"model": "cs16:gun/glock18"
+				}
+			}
+	}
+}

@@ -1,2 +1,0 @@
-scoreboard players set @s cs16.player.threw_grenade 0
-execute if entity @e[type=snowball,sort=nearest,distance=..2,limit=1,nbt={Item:{components:{"minecraft:custom_data":{gun:{id:99}}}}}] run function cs16:grenade/f1

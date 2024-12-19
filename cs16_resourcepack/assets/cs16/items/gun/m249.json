@@ -1,0 +1,52 @@
+{
+	"model": {
+		"type": "minecraft:condition",
+		"property": "minecraft:has_component",
+		"component": "minecraft:dyed_color",
+		"ignore_default": false,
+		"on_true": {
+			"type": "minecraft:model",
+			"model": "cs16:gun/m249"
+		},
+		"on_false": {
+			"type": "minecraft:range_dispatch",
+			"property": "minecraft:use_cycle",
+			"period": 10,
+			"scale": 0.1,
+			"entries": [
+				{
+					"threshold": 0.25,
+					"model": {
+						"type": "minecraft:model",
+						"model": "cs16:gun/m249_fire0"
+					}
+				},
+				{
+					"threshold": 0.5,
+					"model": {
+						"type": "minecraft:model",
+						"model": "cs16:gun/m249_fire1"
+					}
+				},
+				{
+					"threshold": 0.75,
+					"model": {
+						"type": "minecraft:model",
+						"model": "cs16:gun/m249_fire0"
+					}
+				},
+				{
+					"threshold": 1.0,
+					"model": {
+						"type": "minecraft:model",
+						"model": "cs16:gun/m249_fire1"
+					}
+				}
+			],
+			"fallback": {
+				"type": "minecraft:model",
+				"model": "cs16:gun/m249"
+			}
+		}
+	}
+}

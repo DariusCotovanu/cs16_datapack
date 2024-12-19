@@ -1,0 +1,2 @@
+execute if entity @s[type=marker,tag=block_placer,predicate=cs16:tick20] run function cs16:blocks/placer
+execute if entity @s[type=marker,tag=block_destroyer,predicate=cs16:tick20] run function cs16:blocks/destroyer

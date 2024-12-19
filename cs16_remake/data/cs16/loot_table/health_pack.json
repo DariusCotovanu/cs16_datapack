@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:empty",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "cs16:mini_health_pack",
+                    "weight": 4
+				},
+                {
+					"type": "minecraft:loot_table",
+					"value": "cs16:big_health_pack",
+                    "weight": 1
+				}
+			]
+		}
+	]
+}

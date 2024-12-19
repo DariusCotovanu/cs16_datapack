@@ -1,0 +1,1 @@
+$execute if score @s pve.loot_level matches 1.. run item modify entity @s weapon.mainhand {"function": "minecraft:set_components","components": {"minecraft:enchantments": {"minecraft:looting": $(looting)}}}

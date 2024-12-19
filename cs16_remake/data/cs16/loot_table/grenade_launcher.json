@@ -1,0 +1,68 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_5",
+					"functions": [
+						{
+							"function": "minecraft:toggle_tooltips",
+							"toggles": {
+								"minecraft:attribute_modifiers": true
+							}
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"!jukebox_playable":{},
+								"item_name":"{\"text\":\"Grenade Gun\",\"color\":\"aqua\",\"italic\":false}",
+								"lore":["[{\"text\":\"LALALA BomBER MAN\",\"italic\":false,\"bold\":true,\"color\":\"gold\"}]"],
+								"item_model": "cs16:bazooka",
+								"minecraft:food": {
+									"nutrition": 1,
+									"saturation": 1,
+									"can_always_eat": true
+								},
+								"minecraft:consumable": {
+									"consume_seconds": 999999
+								}
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+								"gun": {
+									"use_delay":50,
+									"reloadTime": 50,
+									"primary": true,
+									"uid": -1,
+									"isGun": true,
+									"name": "Grenade Launcher",
+									"recoilXZ": 0,
+									"recoilY": 0,
+									"id": -3213,
+									"fire_rate": 0,
+									"block_pen": 0,
+									"range_modifier": 1.0,
+									"bullets": 1,
+									"total_bullets": 13,
+									"magazine_capacity": {
+										"bullets":1,
+										"total_bullets":13
+									},
+									"damage": {
+										"head": 0,
+										"chest": 0,
+										"legs": 0
+									}
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

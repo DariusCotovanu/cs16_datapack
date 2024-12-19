@@ -1,0 +1,32 @@
+{
+    "im_a_queen": {
+        "sounds": [
+            "music:im_a_queen"
+        ]
+    },
+    "manele": {
+        "sounds": [
+            "music:manele"
+        ]
+    },
+    "pop_smoke_dior": {
+        "sounds": [
+            "music:pop_smoke_dior"
+        ]
+    },
+    "rap_god": {
+        "sounds": [
+            "music:rap_god"
+        ]
+    },
+    "this_means_war": {
+        "sounds": [
+            "music:this_means_war"
+        ]
+    },
+    "world_dies": {
+        "sounds": [
+            "music:world_dies"
+        ]
+    }
+}

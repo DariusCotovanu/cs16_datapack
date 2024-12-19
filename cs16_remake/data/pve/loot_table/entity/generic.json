@@ -1,0 +1,133 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "cs16:health_pack"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance_with_enchanted_bonus",
+					"unenchanted_chance": 0.28,
+					"enchanted_chance": {
+						"type": "minecraft:linear",
+						"base": 0.1,
+						"per_level_above_first": 0.015
+					},
+					"enchantment": "minecraft:looting"
+				}
+			]
+		},
+		{
+			
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "cs16:ammo"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance_with_enchanted_bonus",
+					"unenchanted_chance": 0.35,
+					"enchanted_chance": {
+						"type": "minecraft:linear",
+						"base": 0.1,
+						"per_level_above_first": 0.012
+					},
+					"enchantment": "minecraft:looting"
+				}
+			]
+		},
+		{
+			
+			"rolls": 2,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "cs16:ammo"
+				}
+			],
+			"conditions": [
+				{
+					"condition": "minecraft:random_chance_with_enchanted_bonus",
+					"unenchanted_chance": 0.2,
+					"enchanted_chance": {
+						"type": "minecraft:linear",
+						"base": 0.2,
+						"per_level_above_first": 0.02
+					},
+					"enchantment": "minecraft:looting"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"value": "cs16:pistols",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance_with_enchanted_bonus",
+							"unenchanted_chance": 0,
+							"enchanted_chance": {
+								"type": "minecraft:linear",
+								"base": 0.2,
+								"per_level_above_first": 0.005
+							},
+							"enchantment": "minecraft:looting"
+						}
+					]
+		
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "cs16:smgs",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance_with_enchanted_bonus",
+							"unenchanted_chance": 0,
+							"enchanted_chance": {
+								"type": "minecraft:linear",
+								"base": 0.11,
+								"per_level_above_first": 0.008
+							},
+							"enchantment": "minecraft:looting"
+						}
+					]
+		
+				},
+				{
+					"type": "minecraft:loot_table",
+					"value": "cs16:rifles",
+					"conditions": [
+						{
+							"condition": "minecraft:random_chance_with_enchanted_bonus",
+							"unenchanted_chance": 0,
+							"enchanted_chance": {
+								"type": "minecraft:linear",
+								"base": 0.07,
+								"per_level_above_first": 0.0125
+							},
+							"enchantment": "minecraft:looting"
+						}
+					]
+		
+				}
+			],
+			"conditions": [
+				{
+				"condition":"random_chance",
+				"chance": 0.6
+				}
+			]
+		}
+	]
+}

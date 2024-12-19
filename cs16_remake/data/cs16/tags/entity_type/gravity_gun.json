@@ -1,0 +1,13 @@
+{
+    "values":[
+        "minecraft:skeleton",
+        "minecraft:husk",
+        "minecraft:frog",
+        "minecraft:chicken",
+        "minecraft:pig",
+        "minecraft:cow",
+        "minecraft:creeper",
+        "minecraft:armadillo",
+        "minecraft:item"
+    ]
+}

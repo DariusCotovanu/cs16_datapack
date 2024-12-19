@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#minecraft:non_treasure",
+    "cs16:replenish",
+    "cs16:accuracy",
+    "cs16:crit_chance",
+    "cs16:fire_power"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:music_disc_5",
+					"functions": [
+						{
+							"function": "minecraft:toggle_tooltips",
+							"toggles": {
+								"minecraft:attribute_modifiers": true
+							}
+						},
+						{
+							"function": "minecraft:set_attributes",
+							"modifiers": [
+								{
+									"id": "cs16:no_bob",
+									"attribute": "minecraft:attack_speed",
+									"amount": -999999,
+									"operation": "add_value",
+									"slot": "mainhand"
+								}
+							],
+							"replace": true
+						},
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"!jukebox_playable":{},
+								"item_name":"{\"text\":\"M249 Machine Gun\",\"color\":\"aqua\",\"italic\":false}",
+								"lore":["[{\"text\":\"[PRESS F TO RELOAD]\",\"italic\":false,\"bold\":true,\"color\":\"gold\"}]"],
+								"item_model":"cs16:gun/m249",
+								"minecraft:food": {
+									"nutrition": 1,
+									"saturation": 1,
+									"can_always_eat": true
+								},
+								"minecraft:consumable": {
+									"consume_seconds": 999999
+								},
+								"enchantable": {"value": 1}
+							}
+						},
+						{
+							"function": "minecraft:set_custom_data",
+							"tag": {
+								"gun": {
+									"rifle":true,
+									"reloadTime": 94,
+									"primary": true,
+									"uid": -1,
+									"isGun": true,
+									"name": "Machine Gun",
+									"recoilXZ": 5,
+									"recoilY": 6,
+									"id": 24,
+									"fire_rate": 2,
+									"block_pen": 8,
+									"range_modifier": 0.76,
+									"bullets": 100,
+									"total_bullets": 300,
+									"magazine_capacity": {
+										"bullets":100,
+										"total_bullets":300
+									},
+									"damage": {
+										"head": 38,
+										"chest": 14,
+										"legs": 5
+									}
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

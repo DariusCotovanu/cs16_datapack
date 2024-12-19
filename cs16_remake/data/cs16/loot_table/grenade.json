@@ -1,0 +1,27 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:snowball",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components":{
+								"item_model":"cs16:grenade",
+								"item_name":"\"Grendae\"",
+								"minecraft:use_cooldown": {
+									"seconds": 1
+								},
+								"custom_data":{
+									"gun":{"isGun":true,"id":99,"uid":-5231,"bullets":1,"total_bullets":0}}
+								}
+							} 
+					]
+				}
+			]
+		}
+	]
+}
