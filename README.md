@@ -31,12 +31,17 @@ Or random: cs16:ammo, cs16:rifle, cs16:smg,cs16:pistol
 
 CONFIGURATIONS:
 $preventDeath: 0 or 1 (1 - prevents the gun damage from killing the player, instead the player will run function cs16:redirect_on_death)
+
 $gunRange 0..1024
 $gunGrief 0 or 1 (1-guns can destroy blocks)
+
 $wallbang 0 or 1( 1-thru wall damage)
+
 $transform_item_to_display 0 or 1( converts gun items to item displays and can be only be picked up by pressing shift near it)
 
 
 There is a small wave minigame builtin the datapack
+
 To start it type function pve:start
+
 To stop it type function pve:stop
